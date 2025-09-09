@@ -49,7 +49,7 @@ li:hover{
 .footer{
   width: 1905px;
   height: 350px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/HOME/footer.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/Assets/Images/HOME/footer.png);
 }
 
 .footer-div{
@@ -85,7 +85,7 @@ li:hover{
     width: 1905px;
     height: 300px;
     margin-top: 80px;
-    background-image: url(Images/MENU/background.png);
+    background-image: url(/Assets/Images/MENU/background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
