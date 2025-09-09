@@ -90,10 +90,16 @@ p{
 }
 
 #one{
-  margin-top: 100px;
-  height: 400px;
+  height: 500px;
   text-align: center;
-  padding-top: 100px;
+  background-image: url(/Assets/Images/BLOG/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: wheat;
+}
+
+.welcome-text{
+  padding-top: 180px;
 }
 
 .main-div{

@@ -195,6 +195,7 @@ header {
   background-color: white;
   width: 400px;
   height: 400px;
+  border-radius: 50%;
 }
 
 .team-card{
@@ -253,10 +254,6 @@ header {
   color: black;
 }
 
-.tab-one:hover,.tab-two:hover,.tab-three:hover{
-  box-shadow: 2px 2px 2px 2px black;
-}
-
 .team-text{
   font-family: urbanist;
   text-align: center;
@@ -264,6 +261,7 @@ header {
 
 .team-text:hover{
   color: #869E81;
+  scale: 120%;
 }
 
 .teamtab-1:hover{
@@ -321,4 +319,21 @@ li:hover{
 
 .head-div-sub{
   animation: text 5s ;
+}
+
+.tab-one:hover,.tab-two:hover,.tab-three:hover{
+  scale: 110%;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.tab-img:hover{
+  transition: 0.5s;
+  border-radius: 20px;
+}
+
+.head-div-sub:hover{
+  scale: 110%;
+  color: rgb(46, 45, 44);
+  transition: 1s;
 }

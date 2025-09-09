@@ -167,7 +167,9 @@ li:hover{
 }
 
 .tab-one:hover,.tab-two:hover,.tab-three:hover{
-  box-shadow: 1px 1px 1px 1px black;
+  scale: 110%;
+  border-radius: 20px;
+  transition: 0.5s;
 }
 
 .menu-text{
@@ -175,4 +177,9 @@ li:hover{
   color: wheat;
   font-size: 60px;
   padding-top: 100px;
+}
+
+.tab-img:hover{
+  transition: 0.5s;
+  border-radius: 20px;
 }

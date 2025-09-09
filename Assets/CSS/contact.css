@@ -54,9 +54,9 @@ ul{
 }
 
 .banner{
-  background-color: #869E81;
+  background-color: #E0DED7;
   width: 1905px;
-  height: 950px;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
