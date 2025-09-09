@@ -5,7 +5,7 @@ body {
 }
 
 .banner{
-  background-image: url(/assets/Images/HOME/Background.png);
+  background-image: url(/assets/image/home/Background.png);
   width: 1905px;
   height: 950px;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ header {
 .footer{
   width: 1905px;
   height: 350px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/Images/HOME/footer.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/image/home/footer.png);
 }
 
 .footer-div{

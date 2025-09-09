@@ -8,7 +8,7 @@ body{
 .footer{
   width: 1905px;
   height: 350px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/Images/HOME/footer.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/image/home/footer.png);
 }
 
 .footer-div{
@@ -92,7 +92,7 @@ h1{
 }
 
 .contact-pg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/Images/CONTACT/Back\ Ground.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/image/contact/Back\ Ground.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 475px;
