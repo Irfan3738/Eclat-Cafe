@@ -1,0 +1,135 @@
+body {
+  margin: 0px;
+  background-color: #E0DED7;
+}
+
+header {
+  background-color:  #E8F5E9 ; 
+  width: auto;
+  height: 80px;
+  width: 1905px;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button-1 {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+ul,a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: urbanist;
+  font-weight: 600;
+}
+
+ul{
+  display: flex;
+  gap: 20px;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+
+.brand-div{
+  padding-top: 10px;
+}
+
+.footer{
+  width: 1905px;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/HOME/footer.png);
+}
+
+.footer-div{
+  display: flex;
+  color: white;
+  gap: 100px;
+  font-family: urbanist;
+  padding-top: 80px;
+  margin-left: 500px;
+}
+
+.send-input{
+  width: 250px;
+  height: 26px;
+}
+
+.send-btn{
+  width: 100px;
+  height: 25px;
+  background-color: #869E81;
+  border-radius: 10px;
+}
+
+.copy{
+  text-align: center;
+  font-family: urbanist;
+  width: 1905px;
+  height: 40px;
+  background-color: #E0DED7;
+}
+
+.head{
+    font-family: miniver;
+}
+
+p{
+    font-family: urbanist;
+}
+
+#one{
+  margin-top: 100px;
+  height: 400px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.main-div{
+  margin-bottom: 50px; 
+}
+
+#two{
+  height: 400px;
+  width: auto;
+  padding-left: 350px;
+  display: flex;
+}
+
+#three{
+  width: auto;
+  height: 400px;
+  padding-left: 350px;
+  margin-top: 100px;
+  display: flex;
+}
+
+#four{
+  width: auto;
+  height: 400px;
+  text-align: center;  
+}
+
+#thank{
+  padding-top: 80px;
+}
+
+.team-img,.story-img{
+  width: 500px;
+  height: 320px;
+  padding-left: 100px;
+}
+
+
+

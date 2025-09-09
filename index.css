@@ -1,0 +1,324 @@
+
+body {
+  margin: 0px;
+  background-color: #E0DED7;
+}
+
+.banner{
+  background-image: url(Images/HOME/Background.png);
+  width: 1905px;
+  height: 950px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-color:  #E8F5E9 ; 
+  width: auto;
+  height: 80px;
+  width: 1905px;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+}
+
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button-1 {
+  width: 100px;
+  height: 35px;
+  border-radius: 20px;
+}
+
+.back-ground {
+  width: 1905px;
+}
+
+.section {
+  width: 1905px;
+  background-color: #A98A7D; 
+  height: 1400px;
+}
+
+.line {
+  background-color: #E0DED7; 
+  width: 1905px;
+  height: 100px;
+  border-bottom: solid black 1px; 
+  border-top: solid black 1px;
+}
+
+#shop-icon {
+  margin-right: 10px;
+}
+
+.line-text {
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  font-family: pacifico;
+  color: #3A445D; 
+}
+
+.tab-one, .tab-two, .tab-three {
+  background-color: #E0DED7;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.tab-div {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.tab-img {
+  width: 400px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 300px;
+}
+
+.tab-slate {
+  width: 360px;
+  height: 189px;
+  background-color: #E0DED7; 
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 10px;
+  margin-left: 13px;
+}
+
+.milkshake-btn {
+  width: 200px;
+  height: 40px;
+  background-color: #A98A7D; 
+  border: 1px solid #869E81; 
+  box-shadow: unset 2px 2px 2px black;
+  border-radius: 10px;
+  color: white; 
+  font-weight: 750;
+  margin-left: 100px;
+}
+
+.tab-text {
+  text-align: center;
+  font-family: urbanist;
+}
+
+#line2 {
+  border-top: #869E81 solid 1px; 
+}
+
+#line1 {
+  border-top: #869E81 solid 1px; 
+}
+
+.about-section {
+  width: 1905px;
+  height: 800px;
+  background-color: #E0DED7; 
+}
+
+.cafe-img {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.about {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+#abouttext {
+  font-size: 25px;
+  font-family: miniver;
+  font-weight: 300;
+}
+
+.reservation-section{
+  width: 1905px;
+  height: 800px;
+  background-color: #E0DED7;      
+}
+
+.reservation-text{
+  font-size: 50px;
+  font-family: miniver ;
+  text-align: center;
+}
+
+#reservation1{
+  font-size: 20px;
+}
+
+.reservation-input{
+  width: 700px;
+  height: 60px;
+  padding-left: 20px;
+  font-family: urbanist;
+}
+
+.input-box{
+  display: flex;
+  justify-content: center;
+}
+
+#reservation-input-1,#reservation-input-2,#reservation-input-3,#reservation-input-4,#reservation-input-5,#reservation-input-6{
+  margin-top: 30px;
+}
+
+#reservation-input-2,#reservation-input-4,#reservation-input-6{
+  margin-left: 25px;
+}
+
+#reservation-input-1,#reservation-input-3,#reservation-input-5{
+  margin-right: 25px;
+}
+
+.team-section{
+  background-color: #E0DED7;
+  width: 1905px;
+  height: 800px;
+}
+
+.teamtab-1{
+  background-color: white;
+  width: 400px;
+  height: 400px;
+}
+
+.team-card{
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  gap: 30px;
+}
+
+.footer{
+  width: 1905px;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Images/HOME/footer.png);
+}
+
+.footer-div{
+  display: flex;
+  color: white;
+  gap: 100px;
+  font-family: urbanist;
+  padding-top: 80px;
+  margin-left: 500px;
+}
+
+.send-input{
+  width: 250px;
+  height: 26px;
+}
+
+.send-btn{
+  width: 100px;
+  height: 25px;
+  background-color: #869E81;
+  border-radius: 10px;
+}
+
+.copy{
+  text-align: center;
+  font-family: urbanist;
+  width: 1905px;
+  height: 40px;
+  background-color: #E0DED7;
+}
+
+.reserve-btn{
+  width: 200px;
+  height: 40px;
+  margin-left: 850px;
+  margin-top: 30px;
+  background-color: #869E81;
+  border-radius: 10px;
+}
+
+.milkshake-btn:hover{
+  background-color: #869E81;
+  color: black;
+}
+
+.tab-one:hover,.tab-two:hover,.tab-three:hover{
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.team-text{
+  font-family: urbanist;
+  text-align: center;
+}
+
+.team-text:hover{
+  color: #869E81;
+}
+
+.teamtab-1:hover{
+  border: #3A445D 1px solid;
+}
+
+h1.head-text{
+  margin-top: 0;
+}
+
+.head-div{
+  display:flex;
+  align-items: center;
+  height: 950px;
+  margin-left: 50px;
+  
+  
+}
+
+.head-text{
+  font-size: 110px;
+  
+}
+
+.head-text-sub{
+  font-size: 50px;
+  font-family: urbanist;
+}
+
+.reserve-btn:hover{
+  background-color: #A98A7D;
+  color: white;
+}
+
+ul,a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-family: urbanist;
+  font-weight: 600;
+}
+
+ul{
+  display: flex;
+  gap: 20px;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+
+.brand-div{
+  padding-top: 10px;
+}
+
+.head-div-sub{
+  animation: text 5s ;
+}
