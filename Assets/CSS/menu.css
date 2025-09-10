@@ -85,7 +85,7 @@ li:hover{
     width: 1905px;
     height: 300px;
     margin-top: 80px;
-    background-image: url(/assets/image/menu/background.png);
+    background-image: url(Assets/image/menu/background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
