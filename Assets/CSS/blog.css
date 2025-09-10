@@ -92,7 +92,7 @@ p{
 #one{
   height: 500px;
   text-align: center;
-  background-image: url(../Assets/image/blog/Background.png);
+  background-image: url(../image/blog/Background.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: wheat;
